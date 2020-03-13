@@ -47,5 +47,5 @@ class MRRetailSales(MRJob):
 if __name__ == '__main__':
     MRRetailSales.run()
 
-# Execution Statement
+## Execution Statement
 # !python RetailSales.py RetailSalesA1.csv 
