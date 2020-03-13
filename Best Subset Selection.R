@@ -134,7 +134,7 @@ mean.cv.errors
 par(mfrow=c(1,1))
 plot(mean.cv.errors, type='b')
 # cross-validation selects an 11-variable model, we now perform best subset selection on the full data set
-# in order to obtain the 11-variable model
+## in order to obtain the 11-variable model
 reg.best=regsubsets(Salary~.,data=Hitters, nvmax=19)
 coef(reg.best,11)
 
