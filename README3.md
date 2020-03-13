@@ -1,4 +1,4 @@
-# Tree Method, Random Forest, Bagging, Boosting - R Studio
+## Tree Method, Random Forest, Bagging, Boosting - R Studio
 
 rm(list=ls())
 install.packages('tree')
