@@ -1,4 +1,4 @@
-# Ridge Regression and the Lasso - R studio
+## Ridge Regression and the Lasso - R studio
 
 rm(list = ls())
 # use the glmnet package in order to perform ridge regressin and the lasso
